@@ -24,6 +24,7 @@ public final class ModMainConfig {
 
     private ModMainConfig(ForgeConfigSpec.Builder builder) {
         timeCfg = builder
+                .comment("Time(ticks) of resistance 5.")
                 .defineInRange("time",time,20, Integer.MAX_VALUE);
     }
 
